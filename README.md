@@ -23,13 +23,23 @@ A modern full-stack webapp built with the **ReactJs, Spring Boot, MySQL** stacks
 
 ## 📦 Project Structure
 ```
-ecommerce-mern/
+Ecommerce/
 ├── Ecommerce_backend/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middlewares/
-└──── server.js
+│ ├── src/
+| | ├── main/
+| | | ├── java
+| | | | ├── com.project.Ecommerce
+| | | | ├── config/
+| | | | ├── controllers/
+| | | | ├── models/
+| | | | ├── repository/
+| | | | ├── service/
+| | | | | └── serviceImpl/
+| | | | └── EcommerceApplication.java
+| | └── test/
+│ ├── target/
+│ └── pom.xml
+
 ```
 
 ## 🚀 Getting Started
@@ -41,8 +51,8 @@ git clone https://github.com/dinhle2701/Ecommerce
 cd ecommerce
 ```
 
-#### 1.1 Frontend
+#### 1.1 Backend
 ```
-local: cd frontend -> npm install -> npm start
+local: right click to Ecommerce_backend folder and click "Open Folder as Intellij IDEA Project"
 ```
 
